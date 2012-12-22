@@ -67,7 +67,7 @@ public class ImmutableListConverter extends CollectionConverter {
         String resolvesTo = reader.getAttribute("resolves-to");
         if ("com.google.common.collect.ImmutableList$SerializedForm".equals(resolvesTo)) {
             // Skip into the elements element. This has the real children.
-            List items = new ArrayList();
+            List<Object> items = new ArrayList();
             if (reader.hasMoreChildren()) {
                 reader.moveDown();
 	            // read the individual items from xml into a list

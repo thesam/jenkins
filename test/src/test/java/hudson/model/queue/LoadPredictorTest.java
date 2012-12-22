@@ -123,7 +123,7 @@ public class LoadPredictorTest extends HudsonTestCase {
         Computer c = mock(Computer.class);
         when(c.getNode()).thenReturn(n);
 
-        List executors = new CopyOnWriteArrayList();
+        List<Executor> executors = new CopyOnWriteArrayList<Executor>();
 
         for (int i=0; i<nExecutors; i++) {
             Executor e = mock(Executor.class);

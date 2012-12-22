@@ -498,9 +498,9 @@ public class Functions {
      * so that one can compute relative URLs from it.
      */
     public static String getNearestAncestorUrl(StaplerRequest req,Object it) {
-        List list = req.getAncestors();
+        List<Ancestor> list = req.getAncestors();
         for( int i=list.size()-1; i>=0; i-- ) {
-            Ancestor anc = (Ancestor) list.get(i);
+            Ancestor anc = list.get(i);
             if(anc.getObject()==it)
                 return anc.getUrl();
         }
@@ -511,9 +511,9 @@ public class Functions {
      * Finds the inner-most {@link SearchableModelObject} in scope.
      */
     public static String getSearchURL() {
-        List list = Stapler.getCurrentRequest().getAncestors();
+        List<Ancestor> list = Stapler.getCurrentRequest().getAncestors();
         for( int i=list.size()-1; i>=0; i-- ) {
-            Ancestor anc = (Ancestor) list.get(i);
+            Ancestor anc = list.get(i);
             if(anc.getObject() instanceof SearchableModelObject)
                 return anc.getUrl()+"/search/";
         }
