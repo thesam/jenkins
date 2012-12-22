@@ -5,10 +5,8 @@ import hudson.DescriptorExtensionList;
 import hudson.matrix.MatrixExecutionStrategyDescriptor;
 import hudson.model.AbstractProject;
 import hudson.model.Descriptor;
-import hudson.scm.SCM;
 import jenkins.model.Jenkins;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

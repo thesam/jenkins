@@ -1,7 +1,6 @@
 package hudson.maven;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.jvnet.hudson.test.HudsonTestCase;
 import org.jvnet.hudson.test.Bug;
 import org.jvnet.hudson.test.ExtractResourceSCM;

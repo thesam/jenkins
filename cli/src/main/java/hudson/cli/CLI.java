@@ -34,7 +34,6 @@ import hudson.remoting.SocketInputStream;
 import hudson.remoting.SocketOutputStream;
 import org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement;
 
-import javax.crypto.KeyAgreement;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.BufferedInputStream;
@@ -64,7 +63,6 @@ import java.security.PublicKey;
 import java.security.Signature;
 import java.security.spec.DSAPrivateKeySpec;
 import java.security.spec.DSAPublicKeySpec;
-import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

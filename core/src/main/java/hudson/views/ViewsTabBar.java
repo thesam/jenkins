@@ -28,7 +28,6 @@ import hudson.Extension;
 import hudson.ExtensionPoint;
 import hudson.model.AbstractDescribableImpl;
 import hudson.model.Descriptor;
-import hudson.model.Descriptor.FormException;
 import jenkins.model.GlobalConfiguration;
 import jenkins.model.Jenkins;
 import hudson.model.ListView;

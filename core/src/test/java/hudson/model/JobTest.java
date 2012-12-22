@@ -4,8 +4,6 @@ package hudson.model;
 import junit.framework.Assert;
 
 import org.junit.Test;
-import org.kohsuke.stapler.StaplerRequest;
-import org.mockito.Mockito;
 
 public class JobTest {
 

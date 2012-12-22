@@ -23,7 +23,6 @@
  */
 package hudson;
 
-import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import hudson.Plugin.DummyImpl;
 import hudson.PluginWrapper.Dependency;
@@ -57,7 +56,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 import java.util.jar.Attributes;

@@ -8,7 +8,6 @@ import hudson.matrix.MatrixBuild.MatrixBuildExecution;
 import hudson.matrix.listeners.MatrixBuildListener;
 import hudson.model.BuildListener;
 import hudson.model.Cause.UpstreamCause;
-import hudson.model.ParametersAction;
 import hudson.model.Queue;
 import hudson.model.ResourceController;
 import hudson.model.Result;

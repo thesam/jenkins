@@ -24,7 +24,6 @@
 package jenkins.model;
 
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import hudson.model.InvisibleAction;
 import hudson.model.RootAction;
 import hudson.model.UnprotectedRootAction;
 import hudson.security.FullControlOnceLoggedInAuthorizationStrategy;
@@ -38,9 +37,6 @@ import org.jvnet.hudson.test.Bug;
 import org.jvnet.hudson.test.HudsonTestCase;
 import org.jvnet.hudson.test.TestExtension;
 import org.kohsuke.stapler.HttpResponse;
-import org.xml.sax.SAXException;
-
-import java.io.IOException;
 
 /**
  * @author kingfai

@@ -7,7 +7,6 @@ import java.io.ByteArrayOutputStream;
 import hudson.console.AnnotatedLargeText;
 import hudson.security.ACL;
 import hudson.security.Permission;
-import hudson.security.PermissionGroup;
 import org.acegisecurity.Authentication;
 
 /**

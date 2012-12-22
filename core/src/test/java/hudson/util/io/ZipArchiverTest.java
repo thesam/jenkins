@@ -4,11 +4,9 @@ import junit.framework.TestCase;
 import org.jvnet.hudson.test.Bug;
 
 import java.io.File;
-import java.io.OutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import java.util.Enumeration;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipEntry;
 

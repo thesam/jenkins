@@ -31,7 +31,6 @@ import java.io.FileFilter;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.logging.Logger;
 
 import jenkins.model.Jenkins;

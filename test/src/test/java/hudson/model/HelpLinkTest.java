@@ -1,6 +1,5 @@
 package hudson.model;
 
-import hudson.Functions;
 import hudson.tasks.BuildStepMonitor;
 import org.jvnet.hudson.test.HudsonTestCase;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
@@ -10,7 +9,6 @@ import java.util.List;
 
 import hudson.tasks.Publisher;
 import hudson.tasks.BuildStepDescriptor;
-import hudson.tasks.Builder;
 import hudson.model.HelpLinkTest.HelpNotFoundBuilder.DescriptorImpl;
 
 /**

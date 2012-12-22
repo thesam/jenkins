@@ -38,7 +38,6 @@ import jenkins.model.Jenkins;
 import net.sf.json.JSONObject;
 
 import org.acegisecurity.Authentication;
-import org.acegisecurity.acls.sid.Sid;
 import org.kohsuke.stapler.StaplerRequest;
 
 /**

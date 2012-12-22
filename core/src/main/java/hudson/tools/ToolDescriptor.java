@@ -29,7 +29,6 @@ import hudson.util.DescribableList;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.io.IOException;

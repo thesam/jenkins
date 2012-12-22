@@ -24,8 +24,6 @@
 package hudson;
 
 import hudson.model.Hudson;
-import jenkins.model.Jenkins;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

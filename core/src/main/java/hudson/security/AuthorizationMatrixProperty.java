@@ -25,12 +25,10 @@ package hudson.security;
 
 import hudson.diagnosis.OldDataMonitor;
 import hudson.model.AbstractProject;
-import hudson.model.Item;
 import hudson.model.Job;
 import hudson.model.JobProperty;
 import hudson.model.JobPropertyDescriptor;
 import jenkins.model.Jenkins;
-import hudson.model.Run;
 import hudson.Extension;
 import hudson.util.FormValidation;
 import hudson.util.RobustReflectionConverter;

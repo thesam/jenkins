@@ -44,7 +44,6 @@ import java.util.Comparator;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 /**
  * {@link List} of {@link Run}s, sorted in the descending date order.

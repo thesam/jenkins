@@ -31,7 +31,6 @@ import hudson.model.Computer;
 import hudson.model.Describable;
 import hudson.model.Job;
 import hudson.model.TaskListener;
-import hudson.util.DirScanner.Glob;
 import hudson.util.io.ArchiverFactory;
 import jenkins.model.Jenkins;
 import hudson.model.listeners.RunListener;
