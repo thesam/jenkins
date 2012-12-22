@@ -88,6 +88,4 @@ public class PlainTextConsoleOutputStream extends LineTransformationOutputStream
         out.close();
     }
 
-
-    private static final Logger LOGGER = Logger.getLogger(ConsoleAnnotationOutputStream.class.getName());
 }

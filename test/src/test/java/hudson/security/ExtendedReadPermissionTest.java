@@ -65,7 +65,7 @@ public class ExtendedReadPermissionTest extends HudsonTestCase {
 
         WebClient wc = new WebClient().login("charlie","charlie");
         try {
-            HtmlPage page = wc.goTo("job/a/configure");
+            wc.goTo("job/a/configure");
         }
         catch (FailingHttpStatusCodeException e) {
             assertEquals(403,e.getStatusCode());
@@ -86,7 +86,7 @@ public class ExtendedReadPermissionTest extends HudsonTestCase {
 
         WebClient wc = new WebClient().login("bob","bob");
         try {
-            HtmlPage page = wc.goTo("job/a/configure");
+            wc.goTo("job/a/configure");
         }
         catch (FailingHttpStatusCodeException e) {
             assertEquals(403,e.getStatusCode());

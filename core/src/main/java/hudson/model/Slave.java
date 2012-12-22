@@ -122,11 +122,6 @@ public abstract class Slave extends Node implements Serializable {
     private /*almost final*/ DescribableList<NodeProperty<?>,NodePropertyDescriptor> nodeProperties = new DescribableList<NodeProperty<?>,NodePropertyDescriptor>(Jenkins.getInstance());
 
     /**
-     * Lazily computed set of labels from {@link #label}.
-     */
-    private transient volatile Set<Label> labels;
-    
-    /**
      * Id of user which creates this slave {@link User}.
      */
     private String userId;

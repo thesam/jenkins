@@ -7,9 +7,6 @@ import org.junit.Test;
 
 public class JobTest {
 
-    private final String DISPLAY_NAME_PARAMETER_NAME = "displayName";
-    
-    
     @Test
     public void testSetDisplayName() throws Exception {
        final String displayName = "testSetDisplayName";

@@ -30,9 +30,6 @@ public class JenkinsLocationConfiguration extends GlobalConfiguration {
     private String adminAddress;
     private String jenkinsUrl;
 
-    // just to suppress warnings
-    private transient String charset,useSsl;
-
     public static JenkinsLocationConfiguration get() {
         return GlobalConfiguration.all().get(JenkinsLocationConfiguration.class);
     }

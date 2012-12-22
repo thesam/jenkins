@@ -74,19 +74,15 @@ public class DropdownList extends UISample {
     }
 
     public static class Apple extends Fruit {
-        private int seeds;
         @DataBoundConstructor public Apple(int seeds) {
             super("Apple");
-            this.seeds = seeds;
         }
         @Extension public static final FruitDescriptor D = new FruitDescriptor(Apple.class);
     }
 
     public static class Banana extends Fruit {
-        private boolean yellow;
         @DataBoundConstructor public Banana(boolean yellow) {
             super("Banana");
-            this.yellow = yellow;
         }
         @Extension public static final FruitDescriptor D = new FruitDescriptor(Banana.class);
     }

@@ -32,9 +32,9 @@ import java.util.Random;
  */
 public class ResourceListTest extends TestCase {
     private Resource a1, a2, a3, a4, a;
-    private Resource b1, b2, b3, b4, b;
+    private Resource b;
     private Resource c1, c2, c3, c4, c;
-    private Resource d, e, f;
+    private Resource e, f;
     private int fWriteCount;
     private Random entropy;
     private ResourceList x;
@@ -49,16 +49,11 @@ public class ResourceListTest extends TestCase {
         a3 = new Resource(a, "A" + entropy.nextLong());
         a4 = new Resource(a, "A" + entropy.nextLong());
         b = new Resource("B" + entropy.nextLong());
-        b1 = new Resource(b, "B" + entropy.nextLong());
-        b2 = new Resource(b, "B" + entropy.nextLong());
-        b3 = new Resource(b, "B" + entropy.nextLong());
-        b4 = new Resource(b, "B" + entropy.nextLong());
         c = new Resource(null, "C" + entropy.nextLong(), 3);
         c1 = new Resource(c, "C" + entropy.nextLong(), 3);
         c2 = new Resource(c, "C" + entropy.nextLong(), 3);
         c3 = new Resource(c, "C" + entropy.nextLong(), 3);
         c4 = new Resource(c, "C" + entropy.nextLong(), 3);
-        d = new Resource("D" + entropy.nextLong());
         e = new Resource(null, "E" + entropy.nextLong());
         fWriteCount = 5 + entropy.nextInt(100);
         f = new Resource(null, "F" + entropy.nextLong(), 5);

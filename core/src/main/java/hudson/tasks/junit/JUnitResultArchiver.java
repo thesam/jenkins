@@ -228,9 +228,7 @@ public class JUnitResultArchiver extends Recorder implements MatrixAggregatable 
 	private static final CheckPoint CHECKPOINT = new CheckPoint(
 			"JUnit result archiving");
 
-	private static final long serialVersionUID = 1L;
-
-    @Extension
+	@Extension
     public static class DescriptorImpl extends BuildStepDescriptor<Publisher> {
 		public String getDisplayName() {
 			return Messages.JUnitResultArchiver_DisplayName();

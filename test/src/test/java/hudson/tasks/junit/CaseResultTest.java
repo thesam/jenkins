@@ -155,7 +155,7 @@ public class CaseResultTest extends HudsonTestCase {
 
     @Email("http://jenkins.361315.n4.nabble.com/Change-remote-API-visibility-for-CaseResult-getStdout-getStderr-td395102.html")
     public void testRemoteApiDefaultVisibility() throws Exception {
-        FreeStyleBuild b = configureTestBuild("test-remoteapi");
+        configureTestBuild("test-remoteapi");
 
         XmlPage page = (XmlPage) new WebClient().goTo("job/test-remoteapi/1/testReport/org.twia.vendor/VendorManagerTest/testCreateAdjustingFirm/api/xml","application/xml");
 
@@ -173,7 +173,7 @@ public class CaseResultTest extends HudsonTestCase {
     
     @Email("http://jenkins.361315.n4.nabble.com/Change-remote-API-visibility-for-CaseResult-getStdout-getStderr-td395102.html")
     public void testRemoteApiNoDetails() throws Exception {
-        FreeStyleBuild b = configureTestBuild("test-remoteapi");
+        configureTestBuild("test-remoteapi");
 
         XmlPage page = (XmlPage) new WebClient().goTo("job/test-remoteapi/1/testReport/org.twia.vendor/VendorManagerTest/testCreateAdjustingFirm/api/xml?depth=-1","application/xml");
 
@@ -191,7 +191,7 @@ public class CaseResultTest extends HudsonTestCase {
     
     @Email("http://jenkins.361315.n4.nabble.com/Change-remote-API-visibility-for-CaseResult-getStdout-getStderr-td395102.html")
     public void testRemoteApiNameOnly() throws Exception {
-        FreeStyleBuild b = configureTestBuild("test-remoteapi");
+        configureTestBuild("test-remoteapi");
 
         XmlPage page = (XmlPage) new WebClient().goTo("job/test-remoteapi/1/testReport/org.twia.vendor/VendorManagerTest/testCreateAdjustingFirm/api/xml?depth=-10","application/xml");
 

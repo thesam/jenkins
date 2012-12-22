@@ -68,7 +68,6 @@ import java.security.Security;
 public final class WebAppMain implements ServletContextListener {
     private final RingBufferLogHandler handler = new RingBufferLogHandler();
     private static final String APP = "app";
-    private boolean terminated;
     private Thread initThread;
 
     /**
@@ -332,7 +331,6 @@ public final class WebAppMain implements ServletContextListener {
     }
 
     public void contextDestroyed(ServletContextEvent event) {
-        terminated = true;
         Jenkins instance = Jenkins.getInstance();
         if(instance!=null)
             instance.cleanUp();

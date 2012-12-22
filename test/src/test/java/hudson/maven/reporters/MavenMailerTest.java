@@ -64,7 +64,7 @@ public class MavenMailerTest extends HudsonTestCase {
 
     public Mailbox runMailTest(boolean perModuleEamil) throws Exception {
 
-        final DescriptorImpl mailDesc = Jenkins.getInstance().getDescriptorByType(Mailer.DescriptorImpl.class);
+        Jenkins.getInstance().getDescriptorByType(Mailer.DescriptorImpl.class);
 
         // intentionally give the whole thin in a double quote
         Mailer.descriptor().setAdminAddress("\"me <me@sun.com>\"");

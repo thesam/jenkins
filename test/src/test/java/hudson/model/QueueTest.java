@@ -138,11 +138,10 @@ public class QueueTest extends HudsonTestCase {
             }
         });
 
-        Future<FreeStyleBuild> b1 = p.scheduleBuild2(0);
+        p.scheduleBuild2(0);
         seq.phase(1);   // and make sure we have one build under way
 
-        // get another going
-        Future<FreeStyleBuild> b2 = p.scheduleBuild2(0);
+        p.scheduleBuild2(0);
 
         Thread.sleep(1000);
         Queue.Item[] items = q.getItems();

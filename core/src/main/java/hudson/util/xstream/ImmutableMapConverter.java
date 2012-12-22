@@ -42,7 +42,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author Kohsuke Kawaguchi
  */
 public class ImmutableMapConverter extends MapConverter {
-    private final SerializableConverter sc;
 
     public ImmutableMapConverter(XStream xs) {
         this(xs.getMapper(),xs.getReflectionProvider());
@@ -50,7 +49,6 @@ public class ImmutableMapConverter extends MapConverter {
 
     public ImmutableMapConverter(Mapper mapper, ReflectionProvider reflectionProvider) {
         super(mapper);
-        sc = new SerializableConverter(mapper,reflectionProvider);
     }
 
     @Override

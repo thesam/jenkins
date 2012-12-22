@@ -86,9 +86,7 @@ public abstract class Cause {
      * @deprecated since 2009-02-08
      */
     public static class LegacyCodeCause extends Cause {
-        private StackTraceElement [] stackTrace;
         public LegacyCodeCause() {
-            stackTrace = new Exception().getStackTrace();
         }
 
         @Override

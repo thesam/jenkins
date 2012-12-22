@@ -16,7 +16,6 @@ import java.util.List;
  * @author Kohsuke Kawaguchi
  */
 public class ImmutableSetConverter extends CollectionConverter {
-    private final SerializableConverter sc;
 
     public ImmutableSetConverter(XStream xs) {
         this(xs.getMapper(),xs.getReflectionProvider());
@@ -24,7 +23,6 @@ public class ImmutableSetConverter extends CollectionConverter {
 
     public ImmutableSetConverter(Mapper mapper, ReflectionProvider reflectionProvider) {
         super(mapper);
-        sc = new SerializableConverter(mapper,reflectionProvider);
     }
 
     @Override

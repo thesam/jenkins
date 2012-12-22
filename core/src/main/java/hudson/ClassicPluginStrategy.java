@@ -444,10 +444,6 @@ public class ClassicPluginStrategy implements PluginStrategy {
      * Used to load classes from dependency plugins.
      */
     final class DependencyClassLoader extends ClassLoader {
-        /**
-         * This classloader is created for this plugin. Useful during debugging.
-         */
-        private final File _for;
 
         private List<Dependency> dependencies;
 
@@ -458,7 +454,6 @@ public class ClassicPluginStrategy implements PluginStrategy {
 
         public DependencyClassLoader(ClassLoader parent, File archive, List<Dependency> dependencies) {
             super(parent);
-            this._for = archive;
             this.dependencies = dependencies;
         }
 

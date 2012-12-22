@@ -46,7 +46,6 @@ import java.util.List;
  * @author Kohsuke Kawaguchi
  */
 class MethodBinder {
-    private final CLICommand command;
     private final Method method;
     private final Object[] arguments;
 
@@ -55,8 +54,6 @@ class MethodBinder {
      */
     public MethodBinder(Method method, CLICommand command, CmdLineParser parser) {
         this.method = method;
-        this.command = command;
-
         List<Parameter> params = ReflectionUtils.getParameters(method);
         arguments = new Object[params.size()];
 

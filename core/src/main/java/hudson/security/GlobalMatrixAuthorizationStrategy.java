@@ -344,6 +344,5 @@ public class GlobalMatrixAuthorizationStrategy extends AuthorizationStrategy {
         }
     }
 
-    private static final Logger LOGGER = Logger.getLogger(GlobalMatrixAuthorizationStrategy.class.getName());
 }
 

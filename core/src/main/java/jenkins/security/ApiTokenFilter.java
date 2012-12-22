@@ -32,7 +32,6 @@ public class ApiTokenFilter implements Filter {
 
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
-        HttpServletResponse rsp = (HttpServletResponse) response;
         String authorization = req.getHeader("Authorization");
 
         if (authorization!=null) {

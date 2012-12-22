@@ -127,5 +127,4 @@ public class CliManagerImpl implements CliEntryPoint, Serializable {
         return Channel.current().export(CliEntryPoint.class,this);
     }
 
-    private static final Logger LOGGER = Logger.getLogger(CliManagerImpl.class.getName());
 }

@@ -44,8 +44,8 @@ public class CopyJobCommandTest {
 
     @Test public void copyBetweenFolders() throws Exception {
         MockFolder dir1 = j.createFolder("dir1");
-        MockFolder dir2 = j.createFolder("dir2");
-        FreeStyleProject p = dir1.createProject(FreeStyleProject.class, "p1");
+        j.createFolder("dir2");
+        dir1.createProject(FreeStyleProject.class, "p1");
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         PrintStream outS = new PrintStream(out);
         int result = new CopyJobCommand().main(Arrays.asList("dir1/p1", "dir2/p2"), Locale.ENGLISH, new NullInputStream(0), outS, outS);

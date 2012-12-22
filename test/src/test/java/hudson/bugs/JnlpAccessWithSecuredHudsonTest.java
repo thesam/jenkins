@@ -63,7 +63,7 @@ public class JnlpAccessWithSecuredHudsonTest extends HudsonTestCase {
     public void test() throws Exception {
         jenkins.setNodes(Collections.singletonList(createNewJnlpSlave("test")));
         HudsonTestCase.WebClient wc = new WebClient();
-        HtmlPage p = wc.login("alice").goTo("computer/test/");
+        wc.login("alice").goTo("computer/test/");
 
         // this fresh WebClient doesn't have a login cookie and represent JNLP launcher
         HudsonTestCase.WebClient jnlpAgent = new WebClient();

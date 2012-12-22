@@ -225,7 +225,7 @@ public class LabelExpressionTest extends HudsonTestCase {
         executeOnServer(new Callable<Object>() {
             public Object call() throws Exception {
                 Label l = jenkins.getLabel("foo");
-                DumbSlave s = createSlave(l);
+                createSlave(l);
                 String msg = FreeStyleProject.DESCRIPTOR.doCheckAssignedLabelString("goo").renderHtml();
                 assertTrue(msg.contains("foo"));
                 assertTrue(msg.contains("goo"));

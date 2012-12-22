@@ -46,7 +46,6 @@ import java.util.List;
  * @author Richard Mortimer
  */
 public class ImmutableListConverter extends CollectionConverter {
-    private final SerializableConverter sc;
 
     public ImmutableListConverter(XStream xs) {
         this(xs.getMapper(),xs.getReflectionProvider());
@@ -54,7 +53,6 @@ public class ImmutableListConverter extends CollectionConverter {
 
     public ImmutableListConverter(Mapper mapper, ReflectionProvider reflectionProvider) {
         super(mapper);
-        sc = new SerializableConverter(mapper,reflectionProvider);
     }
 
     @Override
