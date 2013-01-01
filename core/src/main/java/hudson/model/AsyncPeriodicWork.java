@@ -3,8 +3,6 @@ package hudson.model;
 import hudson.security.ACL;
 import hudson.util.StreamTaskListener;
 import jenkins.model.Jenkins;
-import org.acegisecurity.context.SecurityContext;
-import org.acegisecurity.context.SecurityContextHolder;
 
 import java.io.File;
 import java.io.IOException;

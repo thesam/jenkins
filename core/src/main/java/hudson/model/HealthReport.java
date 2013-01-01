@@ -35,7 +35,6 @@ import org.kohsuke.stapler.export.ExportedBean;
 import java.io.*;
 import java.util.Collections;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Represents health of something (typically project).

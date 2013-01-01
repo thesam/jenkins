@@ -26,7 +26,6 @@ package hudson.model;
 
 import com.google.common.collect.ImmutableList;
 import hudson.security.ACL;
-import hudson.security.NotSerilizableSecurityContext;
 import jenkins.model.Jenkins;
 import org.acegisecurity.context.SecurityContext;
 import org.acegisecurity.context.SecurityContextHolder;

@@ -25,7 +25,6 @@
 package hudson.model;
 
 import com.infradna.tool.bridge_method_injector.WithBridgeMethods;
-import com.thoughtworks.xstream.XStream;
 import hudson.*;
 import hudson.model.Descriptor.FormException;
 import hudson.model.listeners.SaveableListener;
@@ -52,7 +51,6 @@ import org.kohsuke.stapler.export.ExportedBean;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.kohsuke.stapler.interceptor.RequirePOST;
 
-import javax.annotation.Nullable;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;

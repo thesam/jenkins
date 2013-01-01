@@ -11,7 +11,6 @@ import org.kohsuke.stapler.StaplerResponse;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.apache.commons.io.IOUtils.copy;

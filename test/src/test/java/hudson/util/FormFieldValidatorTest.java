@@ -25,7 +25,6 @@ package hudson.util;
 
 import hudson.model.FreeStyleProject;
 import hudson.tasks.BuildStepMonitor;
-import hudson.tasks.Builder;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Publisher;
 import hudson.util.FormFieldValidatorTest.BrokenFormValidatorBuilder.DescriptorImpl;

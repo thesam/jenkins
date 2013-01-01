@@ -1,7 +1,6 @@
 package hudson.model;
 
 import java.io.IOException;
-import java.io.StringReader;
 
 import hudson.EnvVars;
 import hudson.matrix.MatrixProject;

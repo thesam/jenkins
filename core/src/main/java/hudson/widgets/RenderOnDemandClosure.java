@@ -25,15 +25,12 @@ package hudson.widgets;
 
 import hudson.Util;
 import hudson.model.Descriptor;
-import hudson.model.DescriptorByNameOwner;
 import hudson.util.IOException2;
 import hudson.util.PackedMap;
 import org.apache.commons.jelly.JellyContext;
 import org.apache.commons.jelly.JellyTagException;
 import org.apache.commons.jelly.Script;
-import org.kohsuke.stapler.Ancestor;
 import org.kohsuke.stapler.HttpResponse;
-import org.kohsuke.stapler.Stapler;
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 import org.kohsuke.stapler.bind.JavaScriptMethod;

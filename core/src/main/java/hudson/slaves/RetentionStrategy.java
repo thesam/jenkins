@@ -28,7 +28,6 @@ import hudson.Util;
 import hudson.DescriptorExtensionList;
 import hudson.Extension;
 import hudson.model.*;
-import hudson.model.Queue.*;
 import hudson.util.DescriptorList;
 import java.util.Collections;
 import java.util.HashMap;

@@ -66,7 +66,6 @@ import org.kohsuke.stapler.HttpResponse;
 import org.kohsuke.stapler.HttpRedirect;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletResponse;
 
 /**
  * {@link Computer} for {@link Slave}s.

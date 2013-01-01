@@ -23,8 +23,6 @@
  */
 package hudson.cli;
 
-import hudson.model.ModifiableItemGroup;
-import hudson.model.TopLevelItem;
 import jenkins.model.Jenkins;
 import hudson.Extension;
 import hudson.model.Item;

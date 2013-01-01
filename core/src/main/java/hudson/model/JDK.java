@@ -23,8 +23,6 @@
  */
 package hudson.model;
 
-import com.infradna.tool.bridge_method_injector.BridgeMethodsAdded;
-import com.infradna.tool.bridge_method_injector.WithBridgeMethods;
 import hudson.util.StreamTaskListener;
 import hudson.util.NullStream;
 import hudson.util.FormValidation;

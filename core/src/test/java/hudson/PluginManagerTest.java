@@ -27,8 +27,6 @@ package hudson;
 import org.apache.tools.ant.filters.StringInputStream;
 import org.junit.Test;
 
-import java.io.File;
-
 import static org.junit.Assert.*;
 
 public class PluginManagerTest {

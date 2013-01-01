@@ -32,7 +32,6 @@ import hudson.diagnosis.OldDataMonitor;
 import hudson.model.*;
 import hudson.slaves.NodeSpecific;
 import hudson.util.DescribableList;
-import hudson.util.StreamTaskListener;
 import hudson.util.XStream2;
 
 import java.io.Serializable;

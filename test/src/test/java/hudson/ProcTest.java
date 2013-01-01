@@ -4,7 +4,6 @@ import hudson.Launcher.LocalLauncher;
 import hudson.Launcher.RemoteLauncher;
 import hudson.Proc.RemoteProc;
 import hudson.remoting.Callable;
-import hudson.remoting.Future;
 import hudson.remoting.Pipe;
 import hudson.remoting.VirtualChannel;
 import hudson.slaves.DumbSlave;
